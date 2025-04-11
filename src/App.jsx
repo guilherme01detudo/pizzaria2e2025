@@ -1,4 +1,5 @@
 import { useState } from "react"
+ import poke from './assets/pokeapi_256.png'
  
 function App(){
  
@@ -44,6 +45,8 @@ function App(){
     <div>
       <h3>Pizzaria 2E</h3>
  
+      <img src={poke} style={{width:230}} />
+
       <Formulario nome="Ricardo"
           idade={45}
           sombra="Digite nome..." />
